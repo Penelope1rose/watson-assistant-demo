@@ -1,0 +1,8 @@
+---
+applications:
+  - name: watson-assistant-demo
+    random-route: true
+    memory: 128M
+    buildpacks:
+      - python_buildpack
+    command: python main.py
