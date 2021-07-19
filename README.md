@@ -195,7 +195,9 @@ Once this is all done, your cloudant should look like this:
 ![discovery diagram](/images/image9png)
 
 ## 6. Using Cloud Functions
-This is a more complex way of using Cloud Functions. The reason for it needing to be more complex is that we require a set of modules that are not normally provided  by the runtime 
+This is a more complex way of using Cloud Functions. To learn more about IBM Cloud Functions, follow this [link](https://cloud.ibm.com/functions/).
+
+
 
 ## 7. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
@@ -438,7 +440,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDU0NjQ4NiwtMzE1MjYzMTEwLC0xMD
+eyJoaXN0b3J5IjpbLTY5NTc1Mzc5MSwtMzE1MjYzMTEwLC0xMD
 MyMzg0ODk2LDIwMTA4NjU5MjIsLTExODE4ODQ3ODIsLTc0NzA3
 NTYxMCwyMDc3OTA5MjUsLTQ3MjkwOTQ4NV19
 -->
