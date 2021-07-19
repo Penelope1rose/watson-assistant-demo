@@ -257,7 +257,7 @@ On your action, click on `Not enabled` button under `Web action`
 
 ![cloud functions action diagram](/images/image11.png)
 
-
+Check the `Enable as Web action` box and click `
 
 
 
@@ -502,7 +502,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzY4MjE4MiwtMTc0MTA4Mzk3MiwxNT
+eyJoaXN0b3J5IjpbMTA3MzA5ODkwOCwtMTc0MTA4Mzk3MiwxNT
 AzNjMyNDc2LDE2ODkxODMyOTYsLTE0MDQ2MTQ5NDQsLTMxNTI2
 MzExMCwtMTAzMjM4NDg5NiwyMDEwODY1OTIyLC0xMTgxODg0Nz
 gyLC03NDcwNzU2MTAsMjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
