@@ -164,7 +164,11 @@ We need to create 2 databases, the **CRM System** and the **Core Banking System*
 - For partitioning, select `Non--partitioned`.
 - Create another database and name the second one to `ticket-system`, partitioning is `Non-partitioned`.
 
-Create d
+#### Create document in CRM
+For this demo, we are going to populate the `ticket-system` database to contain a document. 
+
+- Click on `ticket-system`.
+- 
 
 
 
@@ -409,7 +413,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NTU1Mjc5NCwtMTAzMjM4NDg5NiwyMD
-EwODY1OTIyLC0xMTgxODg0NzgyLC03NDcwNzU2MTAsMjA3Nzkw
-OTI1LC00NzI5MDk0ODVdfQ==
+eyJoaXN0b3J5IjpbLTIwNzkxODQ2ODcsLTEwMzIzODQ4OTYsMj
+AxMDg2NTkyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1NjEwLDIwNzc5
+MDkyNSwtNDcyOTA5NDg1XX0=
 -->
