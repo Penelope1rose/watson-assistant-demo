@@ -159,8 +159,9 @@ We need to create 2 databases, the **CRM System** and the **Core Banking System*
 > We will be updating information such as credit card limit increase to the Core Banking System database while we will be pulling data from the CRM System of service request details. 
 
 - Go to your IBM Cloud Console resource list, find your Cloudant instance and Launch the dashboard.
-- Click on **Create database** on the top right corner 
-- 
+- Click on **Create database** on the top right corner
+- Set your first `database name` Create 2 databases:
+		- 
 
 
 
@@ -405,7 +406,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1MzI3Mzk4LC0xMDMyMzg0ODk2LDIwMT
+eyJoaXN0b3J5IjpbNDI2NjMyODI4LC0xMDMyMzg0ODk2LDIwMT
 A4NjU5MjIsLTExODE4ODQ3ODIsLTc0NzA3NTYxMCwyMDc3OTA5
 MjUsLTQ3MjkwOTQ4NV19
 -->
