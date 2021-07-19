@@ -112,7 +112,7 @@ The newly created dialog skill should now be shown in your Assistant panel:
 
 ![assistant diagram](/images/image4.png)
 
-## Set up Watson Discovery
+## #3. Set up Watson Discovery
 
 #### Add a search skill
 
@@ -133,7 +133,12 @@ From your Assistant panel:
 
 	![create collection diagram](/images/image5.png)
 
-- You will be redirected to your Watson Discovery service. Click  `Let's get started`  to continue. 
+- You will be redirected to your Watson Discovery service. Click  `Let's get started`  to continue.
+
+#### Upload documents
+- Scroll down and select `Upload document(s)`.
+- Select 
+-  
 
 
 
@@ -378,6 +383,6 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NjcwNzE0MywtNzQ3MDc1NjEwLDIwNz
+eyJoaXN0b3J5IjpbMTc2NDk5MzgzNywtNzQ3MDc1NjEwLDIwNz
 c5MDkyNSwtNDcyOTA5NDg1XX0=
 -->
