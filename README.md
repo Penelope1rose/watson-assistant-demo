@@ -160,6 +160,19 @@ We need to create 2 databases, the **CRM System** and the **Core Banking System*
 
 - Go to your IBM Cloud Console resource list, find your Cloudant instance and Launch the dashboard.
 - Click on **Create database** on the top right corner
+
+Then create the following:
+|Database Name|Partitioning |
+
+|:-------------------------------|:---------------|
+
+| abc | US South |
+
+| https://api.eu-de.bluemix.net | Germany |
+
+| https://api.eu-gb.bluemix.net | United Kingdom |
+
+| https://api.au-syd.bluemix.net | Sydney |
 - Set your first `database name` to `abc-cloudant-db`	(this will be your core banking system database).
 - For partitioning, select `Non--partitioned`.
 - Create another database and name the second one to `ticket-system`, partitioning is `Non-partitioned`.
@@ -168,7 +181,7 @@ We need to create 2 databases, the **CRM System** and the **Core Banking System*
 For this demo, we are going to populate the `ticket-system` database to contain a document. 
 
 - Click on `ticket-system`.
-- 
+- Click on `Create document`.
 
 
 
@@ -413,7 +426,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzkxODQ2ODcsLTEwMzIzODQ4OTYsMj
-AxMDg2NTkyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1NjEwLDIwNzc5
-MDkyNSwtNDcyOTA5NDg1XX0=
+eyJoaXN0b3J5IjpbNDE2Mjg0NDYxLC0xMDMyMzg0ODk2LDIwMT
+A4NjU5MjIsLTExODE4ODQ3ODIsLTc0NzA3NTYxMCwyMDc3OTA5
+MjUsLTQ3MjkwOTQ4NV19
 -->
