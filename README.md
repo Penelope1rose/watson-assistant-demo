@@ -99,7 +99,7 @@ Please log in to your [IBM Cloud account](https://cloud.ibm.com/login) to do the
 
 -   Give your assistant a unique name then click  `Create assistant`.
 
-#### Add a dialog skill
+### Add a dialog skill
 
 Import the watson assistant demo skill from a JSON file in your cloned repo. From your Assistant panel:
 
@@ -114,7 +114,7 @@ The newly created dialog skill should now be shown in your Assistant panel:
 
 ## 3. Set up Watson Discovery
 
-#### Add a search skill
+### Add a search skill
 
 > #### What is an Assistant Search Skill?
 > 
@@ -129,15 +129,16 @@ From your Assistant panel:
 -   Click on  `Add search skill`.
 -   Give your search skill a unique name, then click  `Continue`.
 -   From the search skill panel, select the Discovery service instance.
-- Here we have no collections yet. So select `Create new collection`
+- Here we have no collections yet. So select `Create new collection`.
 
 	![create collection diagram](/images/image5.png)
 
 - You will be redirected to your Watson Discovery service. Click  `Let's get started`  to continue.
 
-#### Upload documents
+### Upload documents
 - Scroll down and select `Upload document(s)`.
-- Select 
+- Click  `Drag and drop file here or click to select a file`, go to your cloned repo dir, and  `Open`  the JSON file in  `resources/Watson Assistant/watson-assistant-demo-skill.json`.
+-   Click the  `Upload`  button.
 -  
 
 
@@ -383,6 +384,6 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDM5MDY0MSwtMTE4MTg4NDc4MiwtNz
-Q3MDc1NjEwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
+eyJoaXN0b3J5IjpbNzc1OTEwOTk5LC0xMTgxODg0NzgyLC03ND
+cwNzU2MTAsMjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
 -->
