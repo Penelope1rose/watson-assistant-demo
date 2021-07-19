@@ -153,7 +153,10 @@ For this step, you can follow this [link](https://www.ibm.com/cloud/garage/dte/t
 We need to create 2 databases, the **CRM System** and the **Core Banking System** as seen in the architecture flow. For this demo, we will be using Cloudant databases. 
 
 > Note:
-> We will be updating information such as credit card limit increase to the Core Banking System database while 
+> We will be updating information such as credit card limit increase to the Core Banking System database while we will be pulling data from the CRM System of service request details. 
+
+- 
+
 
 ## 7. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
@@ -396,6 +399,6 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTYzNTQyNiwtMTE4MTg4NDc4MiwtNz
+eyJoaXN0b3J5IjpbMTY5NjAyODE3MCwtMTE4MTg4NDc4MiwtNz
 Q3MDc1NjEwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
 -->
