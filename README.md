@@ -120,14 +120,13 @@ The newly created dialog skill should now be shown in your Assistant panel:
 > 
 > Click  [here](https://cloud.ibm.com/docs/services/assistant?topic=assistant-skill-search-add)  for more information about the Watson Assistant search skill.
 
-Adding a search skill is optional. Our application uses Watson discovery to , 
-But using a search skill is preferred because it allows full use of the Assistant preview and WebChat UI.
+Adding a search skill is optional. Our application uses Watson discovery to query existing company documents or data to see whether any useful information can be found and shared. Using a search skill is preferred because it allows full use of the Assistant preview and WebChat UI.
 
 From your Assistant panel:
 
 -   Click on  `Add search skill`.
 -   Give your search skill a unique name, then click  `Continue`.
--   From the search skill panel, select the Discovery service instance and collection you created previously.
+-   From the search skill panel, select the Discovery service instance collection you created previously.
 -   Click  `Next`  to continue.
 
 ## 2. Run the app locally
@@ -371,5 +370,5 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTk4NTEwMCwtNDcyOTA5NDg1XX0=
+eyJoaXN0b3J5IjpbLTEwMTMyMDQxOTcsLTQ3MjkwOTQ4NV19
 -->
