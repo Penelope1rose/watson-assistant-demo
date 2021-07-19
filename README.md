@@ -127,11 +127,13 @@ From your Assistant panel:
 -   Click on  `Add search skill`.
 -   Give your search skill a unique name, then click  `Continue`.
 -   From the search skill panel, select the Discovery service instance.
-- Here we have no collections yet. so we will create a new colection.
+- Here we have no collections yet. So select `Create new collection`
 
-
+	![create collection diagram](/images/image5.png)
 
 -   Click  `Next`  to continue.
+
+
 
 ## 2. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
@@ -374,5 +376,5 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTkxOTUzMCwtNDcyOTA5NDg1XX0=
+eyJoaXN0b3J5IjpbMjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
 -->
