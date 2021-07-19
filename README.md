@@ -175,7 +175,8 @@ For this demo, we are going to populate the `ticket-system` database to contain 
 
 - Click on `ticket-system`.
 - Click on `Create document`.
-- Then **Copy **
+- **Copy and paste** the following code into the document.
+```
 {
   "_id": "cb357405004bb3b92c344c8a85684441",
   "_rev": "3-85ecea3dbc0849a0dc53d0215067bf5b",
@@ -185,7 +186,7 @@ For this demo, we are going to populate the `ticket-system` database to contain 
     "text": "----- Original message -----\nFrom: banking.support@abc.com\nTo: karen.lim@hotmail.com\nSubject: Debit Card Stuck in ATM\nDate: Thu, Jun 24, 2021 15:29\n\nDear Client,\n\nThe debit card you used to withdraw cash from the ATM machine at Tampines Street 42 has expired. We will send you a replacement card to your registered address in our records through a DHL Courier 233434343. You should receive it within 7-10 working days.\n\nThank you.\n\nShould you require further assistance, kindly contact us at email at banking.support@abc.com\nThank you.\n\n\nBest Regards,\n\nMeera\nCustomer Service Manager\nABC Bank Pte Ltd\n\n----- Original message -----\nFrom: karen.lim@hotmail.com\nTo: banking.support@abc.com\nSubject: Debit Card Stuck in ATM\nDate: Thu, Jun 24, 2021 15:29\n\nHi support,\n\nI have a small problem. I went to an ATM machine at Tampines Street 42 to withdraw money. After a while, the ATM swallowed my debit card. So, my card is stuck in there and I cannot retrieve my card anymore. What happened? Can you please advise on what steps I need to take to resolve this? Thank you.\n\nRegards,\nKaren\n\n\n"
   }
 }
-
+```
 
 
 ## 7. Run the app locally
@@ -429,7 +430,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxMTA2NzEwLC0xMDMyMzg0ODk2LDIwMT
+eyJoaXN0b3J5IjpbNjQ4OTgzNDI0LC0xMDMyMzg0ODk2LDIwMT
 A4NjU5MjIsLTExODE4ODQ3ODIsLTc0NzA3NTYxMCwyMDc3OTA5
 MjUsLTQ3MjkwOTQ4NV19
 -->
