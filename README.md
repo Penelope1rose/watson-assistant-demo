@@ -165,10 +165,10 @@ We need to create 2 databases, the **CRM System** and the **Core Banking System*
 
 - Then create 2 databases as the following:
 
-|Database Name |Partitioning |
-|:----------------|:---------------|
-| abc-cloudant-db |Non-partitioned |
-| ticket-system |Non-partitioned |
+	|Database Name |Partitioning |
+	|:----------------|:---------------|
+	| abc-cloudant-db |Non-partitioned |
+	| ticket-system |Non-partitioned |
 
 #### Create document in CRM
 For this demo, we are going to populate the `ticket-system` database to contain a document. 
@@ -470,8 +470,8 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjM4NDUxOSwtMTQwNDYxNDk0NCwtMz
-E1MjYzMTEwLC0xMDMyMzg0ODk2LDIwMTA4NjU5MjIsLTExODE4
-ODQ3ODIsLTc0NzA3NTYxMCwyMDc3OTA5MjUsLTQ3MjkwOTQ4NV
-19
+eyJoaXN0b3J5IjpbLTE2NTE1MTA4MjMsLTE0MDQ2MTQ5NDQsLT
+MxNTI2MzExMCwtMTAzMjM4NDg5NiwyMDEwODY1OTIyLC0xMTgx
+ODg0NzgyLC03NDcwNzU2MTAsMjA3NzkwOTI1LC00NzI5MDk0OD
+VdfQ==
 -->
