@@ -95,7 +95,7 @@ Please log in to your [IBM Cloud account](https://cloud.ibm.com/login) to do the
 
 - Click the  `Assistants`  icon in the left sidebar and then click  `Create assistant`.
 
-	![dashboard diagram](/images/image1.png)
+	![dashboard diagram](/images/image3.png)
 
 -   Give your assistant a unique name then click  `Create assistant`.
 
@@ -110,7 +110,7 @@ Import the watson assistant demo skill from a JSON file in your cloned repo. Fro
 
 The newly created dialog skill should now be shown in your Assistant panel:
 
-![assistant diagram](/images/image1.png)
+![assistant diagram](/images/image4.png)
 
 #### Add a search skill
 
@@ -120,7 +120,8 @@ The newly created dialog skill should now be shown in your Assistant panel:
 > 
 > Click  [here](https://cloud.ibm.com/docs/services/assistant?topic=assistant-skill-search-add)  for more information about the Watson Assistant search skill.
 
-Adding a search skill is optional. Our Node.js server can instead take the context returned from Watson Assistant and use the SDK to query Watson Discovery directly, but using a search skill is preferred because it allows full use of the Assistant preview and WebChat UI.
+Adding a search skill is optional. Our application uses Watson discovery to , 
+But using a search skill is preferred because it allows full use of the Assistant preview and WebChat UI.
 
 From your Assistant panel:
 
@@ -370,5 +371,5 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5MzQ3ODQ4LC00NzI5MDk0ODVdfQ==
+eyJoaXN0b3J5IjpbMTM5OTk4NTEwMCwtNDcyOTA5NDg1XX0=
 -->
