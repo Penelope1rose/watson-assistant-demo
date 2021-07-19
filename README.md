@@ -259,7 +259,7 @@ ibmcloud fn action list
 
 - Check the `Enable as Web action` box and click **Save**.
 
-
+Ensure 
 
 ## 7. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
@@ -502,9 +502,9 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzIzNzk1NTcsLTE1NzA2NDExMDksLT
-E3NDEwODM5NzIsMTUwMzYzMjQ3NiwxNjg5MTgzMjk2LC0xNDA0
-NjE0OTQ0LC0zMTUyNjMxMTAsLTEwMzIzODQ4OTYsMjAxMDg2NT
-kyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1NjEwLDIwNzc5MDkyNSwt
-NDcyOTA5NDg1XX0=
+eyJoaXN0b3J5IjpbLTMzMTQxOTc5MSwtMTU3MDY0MTEwOSwtMT
+c0MTA4Mzk3MiwxNTAzNjMyNDc2LDE2ODkxODMyOTYsLTE0MDQ2
+MTQ5NDQsLTMxNTI2MzExMCwtMTAzMjM4NDg5NiwyMDEwODY1OT
+IyLC0xMTgxODg0NzgyLC03NDcwNzU2MTAsMjA3NzkwOTI1LC00
+NzI5MDk0ODVdfQ==
 -->
