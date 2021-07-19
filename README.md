@@ -253,6 +253,10 @@ Now go to your IBM Cloud Console. Click on the navigation menu on the top left c
 
 ![cloud functions action diagram](/images/image10png)
 
+On your action, click on `N`
+
+
+
 
 
 ## 7. Run the app locally
@@ -496,8 +500,9 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDEwODM5NzIsMTUwMzYzMjQ3NiwxNj
-g5MTgzMjk2LC0xNDA0NjE0OTQ0LC0zMTUyNjMxMTAsLTEwMzIz
-ODQ4OTYsMjAxMDg2NTkyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1Nj
-EwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
+eyJoaXN0b3J5IjpbLTE2MjM3MDUyOTEsLTE3NDEwODM5NzIsMT
+UwMzYzMjQ3NiwxNjg5MTgzMjk2LC0xNDA0NjE0OTQ0LC0zMTUy
+NjMxMTAsLTEwMzIzODQ4OTYsMjAxMDg2NTkyMiwtMTE4MTg4ND
+c4MiwtNzQ3MDc1NjEwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
+
 -->
