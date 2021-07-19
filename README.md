@@ -194,7 +194,10 @@ Once this is all done, your cloudant should look like this:
 
 ![discovery diagram](/images/image9png)
 
-## 6. Using Cloud Functions
+## 6. Create Actions with Cloud Functions
+#### Configure the Cloud CLI
+
+
 This is a more complex way of using Cloud Functions. To learn more about IBM Cloud Functions, follow this [link](https://cloud.ibm.com/functions/).
 
 Open your command prompt and navigate to the clone repo dir 
@@ -202,7 +205,7 @@ Open your command prompt and navigate to the clone repo dir
 cd /<path-to-clone-repo>/Watson-Assistant/
 ```
 
-#### Configure the Bluemix CLI
+
 
 Login in to your account (follow the prompts)
 
@@ -467,8 +470,8 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTUzOTY5NSwtMTQwNDYxNDk0NCwtMz
-E1MjYzMTEwLC0xMDMyMzg0ODk2LDIwMTA4NjU5MjIsLTExODE4
-ODQ3ODIsLTc0NzA3NTYxMCwyMDc3OTA5MjUsLTQ3MjkwOTQ4NV
-19
+eyJoaXN0b3J5IjpbNzY5OTg4Mjc1LC0xNDA0NjE0OTQ0LC0zMT
+UyNjMxMTAsLTEwMzIzODQ4OTYsMjAxMDg2NTkyMiwtMTE4MTg4
+NDc4MiwtNzQ3MDc1NjEwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX
+0=
 -->
