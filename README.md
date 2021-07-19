@@ -91,11 +91,11 @@ Please log in to your [IBM Cloud account](https://cloud.ibm.com/login) to do the
 - Find your Watson Assistant service and click on it.
 - Click on  `Launch Watson Assistant`.
 
-	![ diagram](/images/image2.png)
+	![launch service diagram](/images/image2.png)
 
 - Click the  `Assistants`  icon in the left sidebar and then click  `Create assistant`.
 
-	![dashboard diagram](/images/image3.png)
+	![create assistant diagram](/images/image3.png)
 
 -   Give your assistant a unique name then click  `Create assistant`.
 
@@ -374,5 +374,5 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTUxMzQ3OTQsLTQ3MjkwOTQ4NV19
+eyJoaXN0b3J5IjpbMTc2NTkxOTUzMCwtNDcyOTA5NDg1XX0=
 -->
