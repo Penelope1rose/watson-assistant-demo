@@ -144,7 +144,7 @@ You have the option to connect to multiple data sources. In this demo, we upload
 
 This ingestion process will take some time. Once you have uploaded the screen looks like this:
 
-![create collection diagram](/images/image6.png)
+![create collection diagram](/images/image7.png)
 
 ### Train documents with SDU
 For this step, you can follow this [link](https://www.ibm.com/cloud/garage/dte/tutorial/create-custom-ui-your-watson-assistant/) at _Step 6: Train documents with SDU_.
@@ -405,6 +405,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDg2NTkyMiwtMTE4MTg4NDc4MiwtNz
-Q3MDc1NjEwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
+eyJoaXN0b3J5IjpbLTgzMTU5MjQ3OSwyMDEwODY1OTIyLC0xMT
+gxODg0NzgyLC03NDcwNzU2MTAsMjA3NzkwOTI1LC00NzI5MDk0
+ODVdfQ==
 -->
