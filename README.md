@@ -228,14 +228,14 @@ Target the organization and space that contains your services (follow the prompt
 ibmcloud target --cf
 ```
 
-#### [](https://github.com/with-watson/multilingual-chatbot#deploy-the-action)Deploy the action
+#### Deploy the action
 
 Make sure you are in the  `Watson-Assistant`  directory.
 
 Run the push script to package and update your cloud function
 
 ```
-ibmcloud fn namespace create khayama-fn 
+ibmcloud fn namespace create 
 ibmcloud fn namespace target khayama-fn
 ```
 
@@ -480,8 +480,8 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzYzMjQ3NiwxNjg5MTgzMjk2LC0xND
-A0NjE0OTQ0LC0zMTUyNjMxMTAsLTEwMzIzODQ4OTYsMjAxMDg2
-NTkyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1NjEwLDIwNzc5MDkyNS
-wtNDcyOTA5NDg1XX0=
+eyJoaXN0b3J5IjpbLTE3MTA3MDc2NiwxNTAzNjMyNDc2LDE2OD
+kxODMyOTYsLTE0MDQ2MTQ5NDQsLTMxNTI2MzExMCwtMTAzMjM4
+NDg5NiwyMDEwODY1OTIyLC0xMTgxODg0NzgyLC03NDcwNzU2MT
+AsMjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
 -->
