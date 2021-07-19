@@ -249,15 +249,15 @@ ibmcloud fn action create wafnaction  --kind python:3 --main main cloud-fn.zip
 ibmcloud fn action list
 ```
 
-Now go to your IBM Cloud Console. Click on the navigation menu on the top left corner, hover over **Functions** and click on `Actions`
+- Now go to your IBM Cloud Console. Click on the navigation menu on the top left corner, hover over **Functions** and click on `Actions`
 
 ![cloud functions action diagram](/images/image10.png)
 
-On your action, click on `Not enabled` button under `Web action`
+- On your action, click on `Not enabled` button under `Web action`
 
 ![cloud functions action diagram](/images/image11.png)
 
-Check the `Enable as Web action` box and click **Save**.
+- Check the `Enable as Web action` box and click **Save**.
 
 
 
@@ -502,7 +502,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTc3Njk2NzYsLTE1NzA2NDExMDksLT
+eyJoaXN0b3J5IjpbLTE3MzIzNzk1NTcsLTE1NzA2NDExMDksLT
 E3NDEwODM5NzIsMTUwMzYzMjQ3NiwxNjg5MTgzMjk2LC0xNDA0
 NjE0OTQ0LC0zMTUyNjMxMTAsLTEwMzIzODQ4OTYsMjAxMDg2NT
 kyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1NjEwLDIwNzc5MDkyNSwt
