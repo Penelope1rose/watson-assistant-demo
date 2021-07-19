@@ -249,7 +249,7 @@ To see the created action, type the command below:
 ibmcloud fn action list
 ```
 
-Now go to your IBM Cloud Console. On the left hand side
+Now go to your IBM Cloud Console. Click on the navigation menu on the top left corner
 
 
 ## 7. Run the app locally
@@ -493,8 +493,8 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjUxNzgwMzMsMTUwMzYzMjQ3NiwxNj
-g5MTgzMjk2LC0xNDA0NjE0OTQ0LC0zMTUyNjMxMTAsLTEwMzIz
-ODQ4OTYsMjAxMDg2NTkyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1Nj
-EwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
+eyJoaXN0b3J5IjpbMTg5ODM0ODc4MiwxNTAzNjMyNDc2LDE2OD
+kxODMyOTYsLTE0MDQ2MTQ5NDQsLTMxNTI2MzExMCwtMTAzMjM4
+NDg5NiwyMDEwODY1OTIyLC0xMTgxODg0NzgyLC03NDcwNzU2MT
+AsMjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
 -->
