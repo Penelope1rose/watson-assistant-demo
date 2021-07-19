@@ -192,7 +192,7 @@ For this demo, we are going to populate the `ticket-system` database to contain 
 
 Once this is all done, your cloudant should look like this:
 
-![cloudant diagram](/images/image9png)
+![cloudant diagram](/images/image9.png)
 
 ## 6. Create Actions with Cloud Functions
 To integrate Watson Assistant to the Cloudant databases, we use cloud function actions. Watson Assistant's webhook feature will call to this action that will be able to call the Cloudant API and access the database.
@@ -251,9 +251,11 @@ ibmcloud fn action list
 
 Now go to your IBM Cloud Console. Click on the navigation menu on the top left corner, hover over **Functions** and click on `Actions`
 
-![cloud functions action diagram](/images/image10png)
+![cloud functions action diagram](/images/image10.png)
 
-On your action, click on `N`
+On your action, click on `Not enabled` button under `Web action`
+
+![cloud functions action diagram](/images/image11.png)
 
 
 
@@ -500,9 +502,9 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjM3MDUyOTEsLTE3NDEwODM5NzIsMT
-UwMzYzMjQ3NiwxNjg5MTgzMjk2LC0xNDA0NjE0OTQ0LC0zMTUy
-NjMxMTAsLTEwMzIzODQ4OTYsMjAxMDg2NTkyMiwtMTE4MTg4ND
-c4MiwtNzQ3MDc1NjEwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
+eyJoaXN0b3J5IjpbLTQxMzY4MjE4MiwtMTc0MTA4Mzk3MiwxNT
+AzNjMyNDc2LDE2ODkxODMyOTYsLTE0MDQ2MTQ5NDQsLTMxNTI2
+MzExMCwtMTAzMjM4NDg5NiwyMDEwODY1OTIyLC0xMTgxODg0Nz
+gyLC03NDcwNzU2MTAsMjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
 
 -->
