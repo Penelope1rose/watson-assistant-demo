@@ -197,7 +197,7 @@ Once this is all done, your cloudant should look like this:
 ## 6. Using Cloud Functions
 This is a more complex way of using Cloud Functions. To learn more about IBM Cloud Functions, follow this [link](https://cloud.ibm.com/functions/).
 
-- Open your command prompt and navigate to the clone repo dir 
+Open your command prompt and navigate to the clone repo dir 
 ```
 cd /<path-to-clone-repo>/Watson-Assistant/
 ```
@@ -443,7 +443,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxMTc5NzU3LC0zMTUyNjMxMTAsLTEwMz
-IzODQ4OTYsMjAxMDg2NTkyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1
-NjEwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
+eyJoaXN0b3J5IjpbLTE0MDQ2MTQ5NDQsLTMxNTI2MzExMCwtMT
+AzMjM4NDg5NiwyMDEwODY1OTIyLC0xMTgxODg0NzgyLC03NDcw
+NzU2MTAsMjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
 -->
