@@ -232,10 +232,11 @@ ibmcloud target --cf
 
 Make sure you are in the  `Watson-Assistant`  directory.
 
-Run the deployment script to package and update your cloud function
+Run the push script to package and update your cloud function
 
 ```
-./deploy_cloudfunction.sh
+ibmcloud fn namespace create khayama-fn 
+ibmcloud fn namespace target khayama-fn
 ```
 
 ## 7. Run the app locally
@@ -479,8 +480,8 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NzYzNDA3LDE2ODkxODMyOTYsLTE0MD
-Q2MTQ5NDQsLTMxNTI2MzExMCwtMTAzMjM4NDg5NiwyMDEwODY1
-OTIyLC0xMTgxODg0NzgyLC03NDcwNzU2MTAsMjA3NzkwOTI1LC
-00NzI5MDk0ODVdfQ==
+eyJoaXN0b3J5IjpbMTUwMzYzMjQ3NiwxNjg5MTgzMjk2LC0xND
+A0NjE0OTQ0LC0zMTUyNjMxMTAsLTEwMzIzODQ4OTYsMjAxMDg2
+NTkyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1NjEwLDIwNzc5MDkyNS
+wtNDcyOTA5NDg1XX0=
 -->
