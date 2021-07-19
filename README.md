@@ -38,7 +38,7 @@ This solution combines a chat interface (Watson Assistant), data storage (Core B
  3. [Set up Watson Assistant](#3.-set-up-watson-assistant)
  4. [Set up Watson Discovery](#4.-set-up-watson-discovery)
  5. [Set up Cloudant database](#5.-set-up-cloudant-database)
- 6. [Integrate Watson Assistant and Watson Discovery](#6.-integrate-watson-assistant-and-watson-discovery)
+ 6. [Using Cloud Functions](#6.-using-cloud-functions)
  7. [Run your application](#7.-run-your-application)
 
 ## 1. Clone this repo
@@ -194,6 +194,8 @@ Once this is all done, your cloudant should look like this:
 
 ![discovery diagram](/images/image9png)
 
+## 6. Using Cloud Functions
+This is a more complex way of using Cloud Functions
 
 ## 7. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
@@ -436,7 +438,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0Mzc1NDM5LC0zMTUyNjMxMTAsLTEwMz
+eyJoaXN0b3J5IjpbLTk2Mjk2MjcwLC0zMTUyNjMxMTAsLTEwMz
 IzODQ4OTYsMjAxMDg2NTkyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1
 NjEwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
 -->
