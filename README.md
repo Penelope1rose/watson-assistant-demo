@@ -239,12 +239,12 @@ ibmcloud fn namespace create <yourname>-fn
 ibmcloud fn namespace target <yourname>-fn
 ```
 
-Run the commands below to create an action in Cloud Functions.
+- Run the commands below to create an action in Cloud Functions.
 ```
 ibmcloud fn action create wafnaction  --kind python:3 --main main cloud-fn.zip
 ```
 
-To see the created action, type the command below:
+- To see the created action, type the command below:
 ```
 ibmcloud fn action list
 ```
@@ -502,7 +502,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDk4MTk1MDYsLTE1NzA2NDExMDksLT
+eyJoaXN0b3J5IjpbLTEzOTc3Njk2NzYsLTE1NzA2NDExMDksLT
 E3NDEwODM5NzIsMTUwMzYzMjQ3NiwxNjg5MTgzMjk2LC0xNDA0
 NjE0OTQ0LC0zMTUyNjMxMTAsLTEwMzIzODQ4OTYsMjAxMDg2NT
 kyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1NjEwLDIwNzc5MDkyNSwt
