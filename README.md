@@ -25,8 +25,6 @@ This solution combines a chat interface (Watson Assistant), data storage (Core B
 4. The Recipient can obtain service request details on cases logged by recipient in the CRM System through the chatbot.
 
 ## Prerequisites
-You'll need the following:
-
 1. Sign up for an [IBM Cloud account](https://cloud.ibm.com/registration)
 2. Download and install the following:
 	*  [IBM Cloud CLI](https://cloud.ibm.com/docs/cli/index.html#overview)
@@ -87,34 +85,55 @@ Please log in to your [IBM Cloud account](https://cloud.ibm.com/login) to do the
 #### Create an assistant
 
 - Go to your dashboard and select `Services and software`.
+
 	![dashboard diagram](/images/image1.png)
+	
 - Find your Watson Assistant service and click on it.
 - Click on  `Launch Watson Assistant`.
+
+	![launch service diagram](/images/image2.png)
+
 - Click the  `Assistants`  icon in the left sidebar and then click  `Create assistant`.
+
+	![create assistant diagram](/images/image3.png)
+
 -   Give your assistant a unique name then click  `Create assistant`.
 
 #### Add a dialog skill
 
-Import the virtual insurance assistant skill from a JSON file in your cloned repo. From your Assistant panel:
+Import the watson assistant demo skill from a JSON file in your cloned repo. From your Assistant panel:
 
--   Click on  `Add dialog skill`.
+-   Click on  `Add an action or dialog skill`.
 -   Click the  `Upload skill`  tab.
--   Click  `Drag and drop file here or click to select a file`, go to your cloned repo dir, and  `Open`  the JSON file in  `data/assistant/skill-virtual-insurance-assistant.json`.
+-   Click  `Drag and drop file here or click to select a file`, go to your cloned repo dir, and  `Open`  the JSON file in  `resources/Watson Assistant/watson-assistant-demo-skill.json`.
 -   Click the  `Upload`  button.
 
 The newly created dialog skill should now be shown in your Assistant panel:
 
-Create a set of credentials by clicking  **Service credentials**  >  **New credential**  >  **Add**.
+![assistant diagram](/images/image4.png)
 
-Grab the value for  `apikey`  of the newly created IAM credential. Store this in the file  `etc/params.json`  under  `"assistant_apikey"`.
+#### Add a search skill
+
+> #### What is an Assistant Search Skill?
+> 
+> An Assistant search skill is a mechanism that allows you to directly query a Watson Discovery collection from your Assistant dialog. A search skill is triggered when the dialog reaches a node that has a search skill enabled. The user query is then passed to the Watson Discovery collection via the search skill, and the results are returned to the dialog for display to the user.
+> 
+> Click  [here](https://cloud.ibm.com/docs/services/assistant?topic=assistant-skill-search-add)  for more information about the Watson Assistant search skill.
+
+Adding a search skill is optional. Our application uses Watson discovery to query existing company documents or data to see whether any useful information can be found and shared. Using a search skill is preferred because it allows full use of the Assistant preview and WebChat UI.
+
+From your Assistant panel:
+
+-   Click on  `Add search skill`.
+-   Give your search skill a unique name, then click  `Continue`.
+-   From the search skill panel, select the Discovery service instance.
+- Here we have no collections yet. So select `Create new collection`
+
+	![create collection diagram](/images/image5.png)
+
+-   Click  `Next`  to continue.
 
 
-
-Create a new skill by clicking on  **Create a Skill**  >  **Create new**  >  **Import skill**  > and upload  [`car_workspace.json`](https://github.com/watson-developer-cloud/car-dashboard/blob/master/training/car_workspace.json)  with the option  **Everything**.
-
-From the  **Skills**  page of the tool, click the three dots, then  **View API Details**  to get the  **Workspace ID**. Store this in the file  `etc/params.json`  under  `"assistant_workspace_id"`.
-
-Once Watson has finished training, you may test out interacting with the assistant by clicking on  **Try it**  on the right side of the page.
 
 ## 2. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
@@ -356,3 +375,6 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
         Sign up in  [Watson Studio](https://www.ibm.com/cloud/watson-studio), or use an existing account. Lite plan is free to use.
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
+-->
