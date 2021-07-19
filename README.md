@@ -211,11 +211,13 @@ Login in to your account (follow the prompts)
 ibmcloud login -sso
 ```
 
-Target the resource group (follow the prompts)
+Target the resource group. 
 
 ```
 ibmcloud target -g default
 ```
+
+> 
 
 Target the organization and space that contains your services (follow the prompts)
 
@@ -474,8 +476,8 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4OTE4MzI5NiwtMTQwNDYxNDk0NCwtMz
-E1MjYzMTEwLC0xMDMyMzg0ODk2LDIwMTA4NjU5MjIsLTExODE4
-ODQ3ODIsLTc0NzA3NTYxMCwyMDc3OTA5MjUsLTQ3MjkwOTQ4NV
-19
+eyJoaXN0b3J5IjpbMzU5NjMwOTEyLDE2ODkxODMyOTYsLTE0MD
+Q2MTQ5NDQsLTMxNTI2MzExMCwtMTAzMjM4NDg5NiwyMDEwODY1
+OTIyLC0xMTgxODg0NzgyLC03NDcwNzU2MTAsMjA3NzkwOTI1LC
+00NzI5MDk0ODVdfQ==
 -->
