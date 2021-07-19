@@ -25,8 +25,6 @@ This solution combines a chat interface (Watson Assistant), data storage (Core B
 4. The Recipient can obtain service request details on cases logged by recipient in the CRM System through the chatbot.
 
 ## Prerequisites
-You'll need the following:
-
 1. Sign up for an [IBM Cloud account](https://cloud.ibm.com/registration)
 2. Download and install the following:
 	*  [IBM Cloud CLI](https://cloud.ibm.com/docs/cli/index.html#overview)
@@ -364,5 +362,5 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjkwOTQ4NV19
+eyJoaXN0b3J5IjpbLTcwMzg2MTU5NSwtNDcyOTA5NDg1XX0=
 -->
