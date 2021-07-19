@@ -139,12 +139,15 @@ From your Assistant panel:
 You have the option to connect to multiple data sources. In this demo, we upload our own documents. 
 - Scroll down and select `Upload document(s)`.
 - Set your `collection name` and click **Create**.
+
+	![create collection diagram](/images/image6.png)
+
 - Go to your cloned repo directory, and  select all the PDF files in  `resources/Watson Discovery`.
 - **Drag and drop** the files into Watson Discovery for ingestion.
 
 This ingestion process will take some time. Once you have uploaded the screen looks like this:
 
-![create collection diagram](/images/image7.png)
+![discovery diagram](/images/image7.png)
 
 ### Train documents with SDU
 For this step, you can follow this [link](https://www.ibm.com/cloud/garage/dte/tutorial/create-custom-ui-your-watson-assistant/) at _Step 6: Train documents with SDU_.
@@ -405,7 +408,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTU5MjQ3OSwyMDEwODY1OTIyLC0xMT
-gxODg0NzgyLC03NDcwNzU2MTAsMjA3NzkwOTI1LC00NzI5MDk0
-ODVdfQ==
+eyJoaXN0b3J5IjpbLTEwMzIzODQ4OTYsMjAxMDg2NTkyMiwtMT
+E4MTg4NDc4MiwtNzQ3MDc1NjEwLDIwNzc5MDkyNSwtNDcyOTA5
+NDg1XX0=
 -->
