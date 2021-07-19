@@ -217,17 +217,20 @@ Target the resource group.
 ibmcloud target -g default
 ```
 
+> If you do not have a resource group, do the following:
+> ```ibmcloud resource group create default``` 
 > 
+> Then try the above step again
 
 Target the organization and space that contains your services (follow the prompts)
 
 ```
-bx target --cf
+ibmcloud target --cf
 ```
 
 #### [](https://github.com/with-watson/multilingual-chatbot#deploy-the-action)Deploy the action
 
-Make sure you are in the  `multilingual-chatbot`  directory.
+Make sure you are in the  `Watson-Assistant`  directory.
 
 Run the deployment script to package and update your cloud function
 
@@ -476,7 +479,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5NjMwOTEyLDE2ODkxODMyOTYsLTE0MD
+eyJoaXN0b3J5IjpbMTM1NzYzNDA3LDE2ODkxODMyOTYsLTE0MD
 Q2MTQ5NDQsLTMxNTI2MzExMCwtMTAzMjM4NDg5NiwyMDEwODY1
 OTIyLC0xMTgxODg0NzgyLC03NDcwNzU2MTAsMjA3NzkwOTI1LC
 00NzI5MDk0ODVdfQ==
