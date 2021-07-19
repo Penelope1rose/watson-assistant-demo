@@ -136,13 +136,12 @@ From your Assistant panel:
 - You will be redirected to your Watson Discovery service. Click  `Let's get started`  to continue.
 
 ### Upload documents
-You have the option to connect to multiple data sources
--   In this lab, we upload our own documents. Click  **Upload documents**
+You have the option to connect to multiple data sources. In this demo, we upload our own documents. 
 - Scroll down and select `Upload document(s)`.
 - Go to your cloned repo directory, and  select all the PDF files in  `resources/Watson Discovery`.
 - **Drag and drop** the files into Watson Discovery for ingestion.
 
-This ingestion process will take some time. Once you are
+This ingestion process will take some time. Once you have uploaded the screen looks like this:
 
 
 
@@ -387,6 +386,6 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3NTAzMjczLC0xMTgxODg0NzgyLC03ND
-cwNzU2MTAsMjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
+eyJoaXN0b3J5IjpbLTU2MjM5Mzk5MSwtMTE4MTg4NDc4MiwtNz
+Q3MDc1NjEwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
 -->
