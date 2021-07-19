@@ -188,6 +188,8 @@ For this demo, we are going to populate the `ticket-system` database to contain 
 }
 ```
 
+> This will be the document that Watson Assistant will read from when the user asks about service request details. 
+
 
 ## 7. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
@@ -430,7 +432,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4OTgzNDI0LC0xMDMyMzg0ODk2LDIwMT
-A4NjU5MjIsLTExODE4ODQ3ODIsLTc0NzA3NTYxMCwyMDc3OTA5
-MjUsLTQ3MjkwOTQ4NV19
+eyJoaXN0b3J5IjpbLTE4NTY5MjI4MTksLTEwMzIzODQ4OTYsMj
+AxMDg2NTkyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1NjEwLDIwNzc5
+MDkyNSwtNDcyOTA5NDg1XX0=
 -->
