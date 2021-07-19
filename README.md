@@ -106,7 +106,9 @@ The newly created dialog skill should now be shown in your Assistant panel:
 
 ![assistant diagram](/images/image1.png)
 
+#### Add a search skill
 
+Import the virtual insurance assistant skill from a JSON file in your cloned repo. From your Assistant panel:
 
 Create a new skill by clicking on  **Create a Skill**  >  **Create new**  >  **Import skill**  > and upload  [`car_workspace.json`](https://github.com/watson-developer-cloud/car-dashboard/blob/master/training/car_workspace.json)  with the option  **Everything**.
 
@@ -355,5 +357,5 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTcyNTk1OF19
+eyJoaXN0b3J5IjpbMTkwMjEyNjQxOF19
 -->
