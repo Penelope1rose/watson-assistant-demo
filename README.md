@@ -289,15 +289,12 @@ pip install -r requirements.txt
 Run the app.
 
 ```
-python hello.py
+python main.py
 ```
   
 View your app at: http://localhost:8000
-
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxODc2MTMzOCwtMzMxNDE5NzkxLC0xNT
+eyJoaXN0b3J5IjpbMTAyODE0NTY4NywtMzMxNDE5NzkxLC0xNT
 cwNjQxMTA5LC0xNzQxMDgzOTcyLDE1MDM2MzI0NzYsMTY4OTE4
 MzI5NiwtMTQwNDYxNDk0NCwtMzE1MjYzMTEwLC0xMDMyMzg0OD
 k2LDIwMTA4NjU5MjIsLTExODE4ODQ3ODIsLTc0NzA3NTYxMCwy
