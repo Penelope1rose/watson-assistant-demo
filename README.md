@@ -91,7 +91,7 @@ Please log in to your [IBM Cloud account](https://cloud.ibm.com/login) to do the
 - Find your Watson Assistant service and click on it.
 - Click on  `Launch Watson Assistant`.
 
-	![dashboard diagram](/images/image2.png)
+	![ diagram](/images/image2.png)
 
 - Click the  `Assistants`  icon in the left sidebar and then click  `Create assistant`.
 
@@ -126,7 +126,11 @@ From your Assistant panel:
 
 -   Click on  `Add search skill`.
 -   Give your search skill a unique name, then click  `Continue`.
--   From the search skill panel, select the Discovery service instance collection you created previously.
+-   From the search skill panel, select the Discovery service instance.
+- Here we have no collections yet. so we will create a new colection.
+
+
+
 -   Click  `Next`  to continue.
 
 ## 2. Run the app locally
@@ -370,5 +374,5 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTMyMDQxOTcsLTQ3MjkwOTQ4NV19
+eyJoaXN0b3J5IjpbLTEyMTUxMzQ3OTQsLTQ3MjkwOTQ4NV19
 -->
