@@ -270,10 +270,9 @@ We are using webhooks with Cloud Functions for this demo.
 
 - Go back to your Watson Assistant tooling and click on your dialog skill.
 - Click on `Options` > `Webhooks`.
+- Paste the web action URL you had copied from Cloud Function and add a `.json` at the end of the URL. 
 
 ![cloud functions action diagram](/images/image13.png)
-
-- 
 
 ## 7. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
@@ -516,9 +515,9 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQzODIzNTQsLTMzMTQxOTc5MSwtMT
-U3MDY0MTEwOSwtMTc0MTA4Mzk3MiwxNTAzNjMyNDc2LDE2ODkx
-ODMyOTYsLTE0MDQ2MTQ5NDQsLTMxNTI2MzExMCwtMTAzMjM4ND
-g5NiwyMDEwODY1OTIyLC0xMTgxODg0NzgyLC03NDcwNzU2MTAs
-MjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
+eyJoaXN0b3J5IjpbMTAzMzgyMzMwMSwtMzMxNDE5NzkxLC0xNT
+cwNjQxMTA5LC0xNzQxMDgzOTcyLDE1MDM2MzI0NzYsMTY4OTE4
+MzI5NiwtMTQwNDYxNDk0NCwtMzE1MjYzMTEwLC0xMDMyMzg0OD
+k2LDIwMTA4NjU5MjIsLTExODE4ODQ3ODIsLTc0NzA3NTYxMCwy
+MDc3OTA5MjUsLTQ3MjkwOTQ4NV19
 -->
