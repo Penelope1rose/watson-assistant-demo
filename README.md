@@ -95,11 +95,11 @@ Please log in to your [IBM Cloud account](https://cloud.ibm.com/login) to do the
 
 #### Add a dialog skill
 
-Import the virtual insurance assistant skill from a JSON file in your cloned repo. From your Assistant panel:
+Import the watson assistant demo skill from a JSON file in your cloned repo. From your Assistant panel:
 
--   Click on  `Add dialog skill`.
+-   Click on  `Add an action or dialog skill`.
 -   Click the  `Upload skill`  tab.
--   Click  `Drag and drop file here or click to select a file`, go to your cloned repo dir, and  `Open`  the JSON file in  `data/assistant/skill-virtual-insurance-assistant.json`.
+-   Click  `Drag and drop file here or click to select a file`, go to your cloned repo dir, and  `Open`  the JSON file in  `resources/Watson Assistant/watson-assistant-demo-skill.json`.
 -   Click the  `Upload`  button.
 
 The newly created dialog skill should now be shown in your Assistant panel:
@@ -108,13 +108,20 @@ The newly created dialog skill should now be shown in your Assistant panel:
 
 #### Add a search skill
 
-Import the virtual insurance assistant skill from a JSON file in your cloned repo. From your Assistant panel:
+> #### What is an Assistant Search Skill?
+> 
+> An Assistant search skill is a mechanism that allows you to directly query a Watson Discovery collection from your Assistant dialog. A search skill is triggered when the dialog reaches a node that has a search skill enabled. The user query is then passed to the Watson Discovery collection via the search skill, and the results are returned to the dialog for display to the user.
+> 
+> Click  [here](https://cloud.ibm.com/docs/services/assistant?topic=assistant-skill-search-add)  for more information about the Watson Assistant search skill.
 
-Create a new skill by clicking on  **Create a Skill**  >  **Create new**  >  **Import skill**  > and upload  [`car_workspace.json`](https://github.com/watson-developer-cloud/car-dashboard/blob/master/training/car_workspace.json)  with the option  **Everything**.
+Adding a search skill is optional. Our Node.js server can instead take the context returned from Watson Assistant and use the SDK to query Watson Discovery directly, but using a search skill is preferred because it allows full use of the Assistant preview and WebChat UI.
 
-From the  **Skills**  page of the tool, click the three dots, then  **View API Details**  to get the  **Workspace ID**. Store this in the file  `etc/params.json`  under  `"assistant_workspace_id"`.
+From your Assistant panel:
 
-Once Watson has finished training, you may test out interacting with the assistant by clicking on  **Try it**  on the right side of the page.
+-   Click on  `Add search skill`.
+-   Give your search skill a unique name, then click  `Continue`.
+-   From the search skill panel, select the Discovery service instance and collection you created previously.
+-   Click  `Next`  to continue.
 
 ## 2. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
@@ -357,5 +364,5 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjEyNjQxOF19
+eyJoaXN0b3J5IjpbLTQ3MjkwOTQ4NV19
 -->
