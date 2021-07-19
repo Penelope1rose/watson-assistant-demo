@@ -258,8 +258,10 @@ ibmcloud fn action list
 ![cloud functions action diagram](/images/image11.png)
 
 - Check the `Enable as Web action` box and click **Save**.
+- Copy the web action URL. This will be used in Watson Assistant. 
 
-Copy the URL 
+![cloud functions action diagram](/images/image12.png)
+
 
 ## 7. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
@@ -502,9 +504,9 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzE2OTAwMCwtMzMxNDE5NzkxLC0xNT
-cwNjQxMTA5LC0xNzQxMDgzOTcyLDE1MDM2MzI0NzYsMTY4OTE4
-MzI5NiwtMTQwNDYxNDk0NCwtMzE1MjYzMTEwLC0xMDMyMzg0OD
-k2LDIwMTA4NjU5MjIsLTExODE4ODQ3ODIsLTc0NzA3NTYxMCwy
-MDc3OTA5MjUsLTQ3MjkwOTQ4NV19
+eyJoaXN0b3J5IjpbLTE1Njk2MjU4NDgsLTMzMTQxOTc5MSwtMT
+U3MDY0MTEwOSwtMTc0MTA4Mzk3MiwxNTAzNjMyNDc2LDE2ODkx
+ODMyOTYsLTE0MDQ2MTQ5NDQsLTMxNTI2MzExMCwtMTAzMjM4ND
+g5NiwyMDEwODY1OTIyLC0xMTgxODg0NzgyLC03NDcwNzU2MTAs
+MjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
 -->
