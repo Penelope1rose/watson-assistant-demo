@@ -232,12 +232,14 @@ ibmcloud target --cf
 
 Make sure you are in the  `Watson-Assistant`  directory.
 
-Run the push script to package and update your cloud function
+Run the following code to create and target a namespace
 
 ```
-ibmcloud fn namespace create 
-ibmcloud fn namespace target khayama-fn
+ibmcloud fn namespace create <yourname>-fn
+ibmcloud fn namespace target <yourname>-fn
 ```
+
+
 
 ## 7. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
@@ -480,7 +482,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTA3MDc2NiwxNTAzNjMyNDc2LDE2OD
+eyJoaXN0b3J5IjpbMTU2MTcwOTIzOCwxNTAzNjMyNDc2LDE2OD
 kxODMyOTYsLTE0MDQ2MTQ5NDQsLTMxNTI2MzExMCwtMTAzMjM4
 NDg5NiwyMDEwODY1OTIyLC0xMTgxODg0NzgyLC03NDcwNzU2MT
 AsMjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
