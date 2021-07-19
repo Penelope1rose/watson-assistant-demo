@@ -133,7 +133,7 @@ From your Assistant panel:
 
 	![create collection diagram](/images/image5.png)
 
-- Click  `Next`  to continue. 
+- You will be redirected to your Watson Discovery service. Click  `Let's get started`  to continue. 
 
 
 
@@ -378,6 +378,6 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NzA3NTYxMCwyMDc3OTA5MjUsLTQ3Mj
-kwOTQ4NV19
+eyJoaXN0b3J5IjpbMjA4NjcwNzE0MywtNzQ3MDc1NjEwLDIwNz
+c5MDkyNSwtNDcyOTA5NDg1XX0=
 -->
