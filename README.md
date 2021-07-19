@@ -143,7 +143,7 @@ You have the option to connect to multiple data sources. In this demo, we upload
 
 This ingestion process will take some time. Once you have uploaded the screen looks like this:
 
-
+![create collection diagram](/images/image6.png)
 
 ## 2. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
@@ -386,6 +386,6 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjM5Mzk5MSwtMTE4MTg4NDc4MiwtNz
+eyJoaXN0b3J5IjpbMTkyNTAyMDMwOCwtMTE4MTg4NDc4MiwtNz
 Q3MDc1NjEwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
 -->
