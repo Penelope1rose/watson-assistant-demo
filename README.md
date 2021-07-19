@@ -33,13 +33,13 @@ This solution combines a chat interface (Watson Assistant), data storage (Core B
 	*  [Python](https://www.python.org/downloads/)
 
 ## Steps
- 1. [Clone this repo](#1.-Clone-this-repository)
- 2. [Create an instance of the required services](#2.-Create-an-instance-of-the-required-services)
- 3. [Set up Watson Assistant](#3.-Set-up-Watson-Assistant)
- 4. [Set up Watson Discovery](#4.-Set-up-Watson-Discovery)
- 5. [Set up Cloudant database](#5.-Set-up-Cloudant-database)
- 6. [Integrate Watson Assistant and Watson Discovery](#6.-Integrate-Watson-Assistant-and-Watson-Discovery)
- 7. [Run your application](#7.-Run-your-application)
+ 1. [Clone this repo](#1.-clone-this-repository)
+ 2. [Create an instance of the required services](#2.-create-an-instance-of-the-required-services)
+ 3. [Set up Watson Assistant](#3.-set-up-watson-assistant)
+ 4. [Set up Watson Discovery](#4.-set-up-watson-discovery)
+ 5. [Set up Cloudant database](#5.-set-up-cloudant-database)
+ 6. [Integrate Watson Assistant and Watson Discovery](#6.-integrate-watson-assistant-and-watson-discovery)
+ 7. [Run your application](#7.-run-your-application)
 
 ## 1. Clone this repo
 Clone the repo and change to the directory to where the sample app is located.
@@ -376,5 +376,6 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
+eyJoaXN0b3J5IjpbMTg1MzQ3NTc4OSwyMDc3OTA5MjUsLTQ3Mj
+kwOTQ4NV19
 -->
