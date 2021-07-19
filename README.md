@@ -200,17 +200,21 @@ To integrate Watson Assistant to the Cloudant databases, we use cloud function a
 This is a more complex way of using Cloud Functions. To learn more about IBM Cloud Functions, follow this [link](https://cloud.ibm.com/functions/).
 
 #### Configure the Cloud CLI
-Open your command prompt and navigate to the clone repo directory into the `Watson-`
+Open your command prompt and navigate to the clone repo directory into the `Watson-Assistant` folder.
 ```
 cd /<path-to-clone-repo>/Watson-Assistant/
 ```
 
-
-
 Login in to your account (follow the prompts)
 
 ```
-bx login
+ibmcloud login -sso
+```
+
+Target the resource group (follow the prompts)
+
+```
+ibmcloud target -g default
 ```
 
 Target the organization and space that contains your services (follow the prompts)
@@ -470,8 +474,8 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTQzMjEzLC0xNDA0NjE0OTQ0LC0zMT
-UyNjMxMTAsLTEwMzIzODQ4OTYsMjAxMDg2NTkyMiwtMTE4MTg4
-NDc4MiwtNzQ3MDc1NjEwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX
-0=
+eyJoaXN0b3J5IjpbMTY4OTE4MzI5NiwtMTQwNDYxNDk0NCwtMz
+E1MjYzMTEwLC0xMDMyMzg0ODk2LDIwMTA4NjU5MjIsLTExODE4
+ODQ3ODIsLTc0NzA3NTYxMCwyMDc3OTA5MjUsLTQ3MjkwOTQ4NV
+19
 -->
