@@ -164,6 +164,7 @@ We need to create 2 databases, the **CRM System** and the **Core Banking System*
 	![create database diagram](/images/image8.png)
 
 - Then create 2 databases as the following:
+
 |Database Name |Partitioning |
 |:----------------|:---------------|
 | abc-cloudant-db |Non-partitioned |
@@ -435,7 +436,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTg4NDQ5LC0zMTUyNjMxMTAsLTEwMz
+eyJoaXN0b3J5IjpbLTY0Mzc1NDM5LC0zMTUyNjMxMTAsLTEwMz
 IzODQ4OTYsMjAxMDg2NTkyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1
 NjEwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
 -->
