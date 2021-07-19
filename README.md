@@ -202,6 +202,30 @@ Open your command prompt and navigate to the clone repo dir
 cd /<path-to-clone-repo>/Watson-Assistant/
 ```
 
+#### Configure the Bluemix CLI
+
+Login in to your account (follow the prompts)
+
+```
+bx login
+```
+
+Target the organization and space that contains your services (follow the prompts)
+
+```
+bx target --cf
+```
+
+#### [](https://github.com/with-watson/multilingual-chatbot#deploy-the-action)Deploy the action
+
+Make sure you are in the  `multilingual-chatbot`  directory.
+
+Run the deployment script to package and update your cloud function
+
+```
+./deploy_cloudfunction.sh
+```
+
 ## 7. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
 
@@ -443,7 +467,8 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQ2MTQ5NDQsLTMxNTI2MzExMCwtMT
-AzMjM4NDg5NiwyMDEwODY1OTIyLC0xMTgxODg0NzgyLC03NDcw
-NzU2MTAsMjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
+eyJoaXN0b3J5IjpbMTA3NTUzOTY5NSwtMTQwNDYxNDk0NCwtMz
+E1MjYzMTEwLC0xMDMyMzg0ODk2LDIwMTA4NjU5MjIsLTExODE4
+ODQ3ODIsLTc0NzA3NTYxMCwyMDc3OTA5MjUsLTQ3MjkwOTQ4NV
+19
 -->
