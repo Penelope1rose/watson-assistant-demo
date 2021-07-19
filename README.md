@@ -254,6 +254,7 @@ Now go to your IBM Cloud Console. Click on the navigation menu on the top left c
 ![cloud functions action diagram](/images/image10png)
 
 
+
 ## 7. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
 
@@ -495,8 +496,8 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzc0NTA3NCwxNTAzNjMyNDc2LDE2OD
-kxODMyOTYsLTE0MDQ2MTQ5NDQsLTMxNTI2MzExMCwtMTAzMjM4
-NDg5NiwyMDEwODY1OTIyLC0xMTgxODg0NzgyLC03NDcwNzU2MT
-AsMjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
+eyJoaXN0b3J5IjpbLTE3NDEwODM5NzIsMTUwMzYzMjQ3NiwxNj
+g5MTgzMjk2LC0xNDA0NjE0OTQ0LC0zMTUyNjMxMTAsLTEwMzIz
+ODQ4OTYsMjAxMDg2NTkyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1Nj
+EwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
 -->
