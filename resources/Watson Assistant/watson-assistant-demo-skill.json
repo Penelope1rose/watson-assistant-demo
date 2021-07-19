@@ -1,0 +1,2261 @@
+{
+  "intents": [
+    {
+      "intent": "account",
+      "examples": [
+        {
+          "text": "Can I check my account?"
+        },
+        {
+          "text": "I want to check on my account"
+        },
+        {
+          "text": "I want to see my account"
+        },
+        {
+          "text": "login to my account"
+        },
+        {
+          "text": "my account"
+        },
+        {
+          "text": "show me my account"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "account_balance",
+      "examples": [
+        {
+          "text": "balance on my checking account"
+        },
+        {
+          "text": "checking account balance"
+        },
+        {
+          "text": "checking account balance please"
+        },
+        {
+          "text": "I'd like to know my checking account balance"
+        },
+        {
+          "text": "savings account balance"
+        },
+        {
+          "text": "what is my checking account balance"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "advice_travel",
+      "examples": [
+        {
+          "text": "advice for travelling internationally"
+        },
+        {
+          "text": "Can I use my card while abroad?"
+        },
+        {
+          "text": "can i use my credit card overseas?"
+        },
+        {
+          "text": "credit card plans"
+        },
+        {
+          "text": "Do I have fees when I travel abroad?"
+        },
+        {
+          "text": "i need help with my card"
+        },
+        {
+          "text": "traveling abroad advice"
+        },
+        {
+          "text": "What are some tips for traveling abroad?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cancel",
+      "examples": [
+        {
+          "text": "cancel that"
+        },
+        {
+          "text": "cancel that action"
+        },
+        {
+          "text": "I don't want to continue"
+        },
+        {
+          "text": "I want to cancel this action"
+        },
+        {
+          "text": "no, never mind"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "checkmaxlimit",
+      "examples": [
+        {
+          "text": "Is there a credit limit on gold credit cards?"
+        },
+        {
+          "text": "what is the base limit for credit cards?"
+        },
+        {
+          "text": "what is the max credit limit on silver credit cards?"
+        },
+        {
+          "text": "what is the maximum credit limit for platinum card?"
+        },
+        {
+          "text": "what is the max limit on platinum card?"
+        },
+        {
+          "text": "what is the minimum credit limit on my silver credit card?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "collect_address",
+      "examples": [
+        {
+          "text": "1244 Ambleside Dr. Portland",
+          "mentions": [
+            {
+              "entity": "city_address",
+              "location": [
+                19,
+                27
+              ]
+            },
+            {
+              "entity": "street_address",
+              "location": [
+                0,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "125 Columbus Avenue New York City",
+          "mentions": [
+            {
+              "entity": "city_address",
+              "location": [
+                20,
+                33
+              ]
+            },
+            {
+              "entity": "street_address",
+              "location": [
+                0,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1800 Logan St. Denver",
+          "mentions": [
+            {
+              "entity": "city_address",
+              "location": [
+                15,
+                21
+              ]
+            },
+            {
+              "entity": "street_address",
+              "location": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2346 Chestatee Point, Atlanta",
+          "mentions": [
+            {
+              "entity": "city_address",
+              "location": [
+                22,
+                29
+              ]
+            },
+            {
+              "entity": "street_address",
+              "location": [
+                0,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "3434 77nd Ave. Chicago",
+          "mentions": [
+            {
+              "entity": "city_address",
+              "location": [
+                15,
+                22
+              ]
+            },
+            {
+              "entity": "street_address",
+              "location": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "3459 Freemont Dr. Cincinnati",
+          "mentions": [
+            {
+              "entity": "city_address",
+              "location": [
+                18,
+                28
+              ]
+            },
+            {
+              "entity": "street_address",
+              "location": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "4538 Placita Borboa St. Phoenix",
+          "mentions": [
+            {
+              "entity": "city_address",
+              "location": [
+                24,
+                31
+              ]
+            },
+            {
+              "entity": "street_address",
+              "location": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "87 34th St. Los Angeles",
+          "mentions": [
+            {
+              "entity": "city_address",
+              "location": [
+                12,
+                23
+              ]
+            },
+            {
+              "entity": "street_address",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "9002 Marcus Ct. Austin",
+          "mentions": [
+            {
+              "entity": "city_address",
+              "location": [
+                16,
+                22
+              ]
+            },
+            {
+              "entity": "street_address",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live at 88 Old Colony Drive, Quincy",
+          "mentions": [
+            {
+              "entity": "city_address",
+              "location": [
+                31,
+                37
+              ]
+            },
+            {
+              "entity": "street_address",
+              "location": [
+                10,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Please send to 22 Milton St. Cambridge",
+          "mentions": [
+            {
+              "entity": "city_address",
+              "location": [
+                29,
+                38
+              ]
+            },
+            {
+              "entity": "street_address",
+              "location": [
+                15,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Send it to 23 Boston St. Brighton",
+          "mentions": [
+            {
+              "entity": "city_address",
+              "location": [
+                25,
+                33
+              ]
+            },
+            {
+              "entity": "street_address",
+              "location": [
+                11,
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "current_credit_limit",
+      "examples": [
+        {
+          "text": "show me my ABC silver credit card limit"
+        },
+        {
+          "text": "tell me my current ABC platinum credit card limit"
+        },
+        {
+          "text": "tell me the credit limit of my platinum credit card"
+        },
+        {
+          "text": "what is my current credit limit?"
+        },
+        {
+          "text": "What is the credit limit on my gold credit card?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "increase_credit_limit",
+      "examples": [
+        {
+          "text": "5000"
+        },
+        {
+          "text": "can I change my credit limit?"
+        },
+        {
+          "text": "DTE Everyday Card"
+        },
+        {
+          "text": "Help me increase my limit on my credit card"
+        },
+        {
+          "text": "I need to change max limit on my credit card"
+        },
+        {
+          "text": "I want to change my credit card limit"
+        },
+        {
+          "text": "I want to increase my credit card limit"
+        },
+        {
+          "text": "i want to increase my credit limit"
+        },
+        {
+          "text": "Platinum Credit Card"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "new_card",
+      "examples": [
+        {
+          "text": "can I get a new card"
+        },
+        {
+          "text": "I want to make a new card"
+        },
+        {
+          "text": "make me a new card"
+        },
+        {
+          "text": "please set up my new card for me"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "open",
+      "examples": [
+        {
+          "text": "How late is your store open?"
+        },
+        {
+          "text": "What are the working hours of the nearest store?"
+        },
+        {
+          "text": "What hours are your stores open"
+        },
+        {
+          "text": "what is the open business hours at my local store?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "report_fraud",
+      "examples": [
+        {
+          "text": "help me block card"
+        },
+        {
+          "text": "How to report credit card lost"
+        },
+        {
+          "text": "I lost my card"
+        },
+        {
+          "text": "i want to report damaged card"
+        },
+        {
+          "text": "my card is damaged"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "requestStatus",
+      "examples": [
+        {
+          "text": "check on service request"
+        },
+        {
+          "text": "haven't heard anything on my service request"
+        },
+        {
+          "text": "How can i check on service request status"
+        },
+        {
+          "text": "I did not hear any news about my service request"
+        },
+        {
+          "text": "I want to know where we are with my service request"
+        },
+        {
+          "text": "what is the status of my request?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": "sure"
+        },
+        {
+          "text": "ya"
+        },
+        {
+          "text": "yea"
+        },
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "yes"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "cardblock",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "debit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "platinum",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "silver",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cardCondition",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "damaged",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lost",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "caseID",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "SR132",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SR148",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SR269",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "checklimitcontext",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "all",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "none",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "one",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "city_address",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Atlanta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Austin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brighton",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cambridge",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chicago",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cincinnati",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Denver",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Los Angeles",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "New York City",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Phoenix",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Portland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Quincy",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "credit_card",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ABC Bank Gold",
+          "synonyms": [
+            "Gold Card"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ABC Bank Platinum",
+          "synonyms": [
+            "Platinum Card"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ABC Bank Silver",
+          "synonyms": [
+            "Silver Card"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "debit_card",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "DTE Passion Debit Card",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DTE Visa Debit Card",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "product",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Credit Card",
+          "synonyms": [
+            "Credit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Debit Card",
+          "synonyms": [
+            "Debit"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "nah",
+            "nope"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yeah",
+            "yup"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "requestType",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Complaint",
+          "synonyms": [
+            "complaint request"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Enquiry",
+          "synonyms": [
+            "enquiry request"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Request",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "srNumbersss",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "credit card lost",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "debit card stuck",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "increase credit limit",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "street_address",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1244 Ambleside Dr.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "125 Columbus Avenue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1800 Logan St.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "22 Milton St.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2346 Chestatee Point,",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "23 Boston St.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3434 77nd Ave.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3459 Freemont Dr.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "4538 Placita Borboa St.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "87 34th St.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "88 Old Colony Drive,",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "9002 Marcus Ct.",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "account balance",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "credit card limit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "new card",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "report fraud",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://au-syd.functions.appdomain.cloud/api/v1/web/d2baaf74-0e4d-4563-b7dc-b72b61886a22/default/wafnaction.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1623206726904",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Is your card lost or damaged?",
+            "options": [
+              {
+                "label": "$product Lost",
+                "value": {
+                  "input": {
+                    "text": "lost"
+                  }
+                }
+              },
+              {
+                "label": "$product Damaged",
+                "value": {
+                  "input": {
+                    "text": "damaged"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_5_1625226281284",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1625226281286",
+      "previous_sibling": "handler_5_1625226281286"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1603174048485",
+      "context": {
+        "city": "@city_address"
+      },
+      "conditions": "@city_address",
+      "event_name": "input",
+      "dialog_node": "handler_3_1603174048489"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1625040775801",
+      "context": {
+        "reply": "@reply"
+      },
+      "conditions": "@reply",
+      "event_name": "input",
+      "dialog_node": "handler_4_1625040775820"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "You have 2 open service requests. May I know which one you want details about?",
+            "options": [
+              {
+                "label": "SR 132",
+                "value": {
+                  "input": {
+                    "text": "SR132"
+                  }
+                }
+              },
+              {
+                "label": "SR 148",
+                "value": {
+                  "input": {
+                    "text": "SR148"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_2_1625541368804",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1625541368820",
+      "previous_sibling": "handler_8_1625541368820"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1623033163271",
+      "context": {
+        "credit_card": "@credit_card"
+      },
+      "conditions": "@credit_card",
+      "event_name": "input",
+      "dialog_node": "handler_5_1623033163282"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The current credit limit of $credit_card is $$credit_limit_silver. \nHow much would you want to increase the credit limit?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_1_1623033970318",
+      "context": {
+        "credit_limit_silver": 5000,
+        "credit_limit_platinum": 10000
+      },
+      "event_name": "focus",
+      "dialog_node": "handler_5_1623033970319",
+      "previous_sibling": "handler_7_1623033970319"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you refering to your debit card or credit card?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1625221620728",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1625221620740",
+      "previous_sibling": "handler_6_1625221620740"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1625226281284",
+      "context": {
+        "cardCondition": "@cardCondition"
+      },
+      "conditions": "@cardCondition",
+      "event_name": "input",
+      "dialog_node": "handler_5_1625226281286"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Sure, I can help you with that. Which credit card would you like to increase the credit limit on?",
+            "options": [
+              {
+                "label": "ABC Bank Platinum 4628-2447-4001-3231",
+                "value": {
+                  "input": {
+                    "text": "ABC Bank Platinum "
+                  }
+                }
+              },
+              {
+                "label": "ABC Bank Silver 4628-2447-1738-7416",
+                "value": {
+                  "input": {
+                    "text": "ABC Bank Silver "
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_3_1623033163271",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1623033163282",
+      "previous_sibling": "handler_5_1623033163282"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "What would you like to do?",
+            "options": [
+              {
+                "label": "Check all credit card limits",
+                "value": {
+                  "input": {
+                    "text": "all"
+                  }
+                }
+              },
+              {
+                "label": "Check selected credit card limit",
+                "value": {
+                  "input": {
+                    "text": "one"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_1_1625040775801",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1625040775820",
+      "previous_sibling": "handler_4_1625040775820"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1625221620728",
+      "context": {
+        "product": "@product"
+      },
+      "conditions": "@product",
+      "event_name": "input",
+      "dialog_node": "handler_6_1625221620740"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1625541321071",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1625541321098",
+      "previous_sibling": "handler_9_1625541321098"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1603173959440",
+      "context": {
+        "street_address": "@street_address"
+      },
+      "conditions": "@street_address",
+      "event_name": "input",
+      "dialog_node": "handler_7_1603173959444"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1603174048485",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1603174048489",
+      "previous_sibling": "handler_3_1603174048489"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1623033970318",
+      "context": {
+        "credit_limit": "@sys-currency"
+      },
+      "conditions": "@sys-currency",
+      "event_name": "input",
+      "dialog_node": "handler_7_1623033970319"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1625541368804",
+      "context": {
+        "caseID": "@caseID"
+      },
+      "conditions": "@caseID",
+      "event_name": "input",
+      "dialog_node": "handler_8_1625541368820"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What address do you want your new card sent to?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1603173959440",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1603173959444",
+      "previous_sibling": "handler_7_1603173959444"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1625541321071",
+      "context": {
+        "": "@srNumber"
+      },
+      "conditions": "@srNumber",
+      "event_name": "input",
+      "dialog_node": "handler_9_1625541321098"
+    },
+    {
+      "type": "standard",
+      "title": "Service Request",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure, I can help you with that. Here are the service request(s) you have logged  with us:\n\nSR 132 : Debit Card Stuck in ATM \nSR 148 : Credit Card Lost\nSR 269:  Increase of Credit Limit "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#requestStatus",
+      "dialog_node": "node_10_1625541272015",
+      "previous_sibling": "node_8_1625200127607"
+    },
+    {
+      "type": "standard",
+      "title": "Lost Credit Card",
+      "parent": "node_9_1625227093510",
+      "conditions": "#report_fraud && @product:(Credit Card)",
+      "user_label": "I lost my Credit Card",
+      "dialog_node": "node_1_1625221714580",
+      "previous_sibling": "node_3_1625123498770"
+    },
+    {
+      "type": "standard",
+      "title": "Ending",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for using DTE Bank Virtual Assist. Have a nice day!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_3_1623206726904",
+      "previous_sibling": "node_4_1603174139423"
+    },
+    {
+      "type": "standard",
+      "title": "Lost Debit Card",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your card will be blocked upon submission of this request. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Please select one of the card(s) below that you wish to block:",
+            "options": [
+              {
+                "label": "ABC Bank Debit 4628-2447-5621-7722",
+                "value": {
+                  "input": {
+                    "text": "debit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1625227093510",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1625123611271"
+      },
+      "conditions": "@product:(Debit Card) && @cardCondition:lost",
+      "user_label": "I lost my Debit Card",
+      "dialog_node": "node_3_1625123498770"
+    },
+    {
+      "type": "standard",
+      "title": "Travel Tips",
+      "output": {
+        "generic": [
+          {
+            "query": "",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "conditions": "#advice_travel",
+      "digress_in": "returns",
+      "user_label": "Travel questions",
+      "dialog_node": "node_4_1603174139423",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_5_1625219915497"
+    },
+    {
+      "type": "folder",
+      "title": "General Enquiries",
+      "digress_in": "returns",
+      "dialog_node": "node_4_1625200188286",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Account Balance",
+      "output": {
+        "generic": [
+          {
+            "time": 3,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Your account balance is $$account_balance."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625200212312",
+      "conditions": "#account_balance",
+      "dialog_node": "node_5_1623146226655",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Check All",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let me check on your credit card limits..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 5,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "The credit limit of your credit cards are listed below:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "ABC Bank Platinum: $$credit_limit_platinum"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625040750452",
+      "conditions": "@checklimitcontext:all",
+      "dialog_node": "node_5_1625040911135"
+    },
+    {
+      "type": "frame",
+      "title": "Report Card",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1625227093510"
+      },
+      "conditions": "#report_fraud",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1625219915497",
+      "previous_sibling": "node_10_1625541272015"
+    },
+    {
+      "type": "standard",
+      "title": "Bank Hours",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The bank is open 9am to 5pm Monday through Friday"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1625200188286",
+      "conditions": "#open",
+      "user_label": "Hours of operation",
+      "dialog_node": "node_6_1603173764116",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "frame",
+      "title": "Increase Credit Card Limit",
+      "parent": "node_8_1625200127607",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "action": "increase",
+            "newLimit": "$credit_limit",
+            "creditCard": "$credit_card"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#increase_credit_limit",
+      "dialog_node": "node_8_1623031983494",
+      "digress_out": "allow_all",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "folder",
+      "title": "Credit Cards",
+      "digress_in": "returns",
+      "dialog_node": "node_8_1625200127607",
+      "previous_sibling": "node_9_1625200212312"
+    },
+    {
+      "type": "frame",
+      "title": "Damaged Card",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your current $product has been cancelled. Your new card will be sent to $street_address. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Is there anything else I can assist you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625227093510",
+      "conditions": "@cardCondition:damaged",
+      "user_label": "Lost or stolen card",
+      "dialog_node": "node_9_1603173814264",
+      "previous_sibling": "node_1_1625221714580"
+    },
+    {
+      "type": "standard",
+      "title": "Check Current Limit",
+      "output": {
+        "generic": [
+          {
+            "title": "What would you like to check?",
+            "options": [
+              {
+                "label": "Check all credit card limits",
+                "value": {
+                  "input": {
+                    "text": "all"
+                  }
+                }
+              },
+              {
+                "label": "Check selected credit card limits",
+                "value": {
+                  "input": {
+                    "text": "one"
+                  }
+                }
+              },
+              {
+                "label": "Cancel",
+                "value": {
+                  "input": {
+                    "text": "none"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1625200127607",
+      "context": {
+        "checklimitcontext": null
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1625040911135"
+      },
+      "conditions": "#current_credit_limit",
+      "dialog_node": "node_9_1625040750452",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_8_1623031983494"
+    },
+    {
+      "type": "standard",
+      "title": "block card",
+      "parent": "node_3_1625123498770",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@cardblock",
+      "dialog_node": "node_9_1625123611271"
+    },
+    {
+      "type": "standard",
+      "title": "Credit Card Enquiries",
+      "output": {
+        "text": {
+          "values": [
+            "Credit limit for Credit Cards with ABC Bank is up to 4 times of your monthly income, subject to bank's approval. "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1625200188286",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#checkmaxlimit",
+      "dialog_node": "node_9_1625199460837",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_6_1603173764116"
+    },
+    {
+      "type": "folder",
+      "title": "Account Status",
+      "digress_in": "returns",
+      "dialog_node": "node_9_1625200212312",
+      "previous_sibling": "node_4_1625200188286"
+    },
+    {
+      "type": "standard",
+      "title": "Evaluate Reponse",
+      "parent": "node_5_1625219915497",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1625227093510"
+    },
+    {
+      "type": "frame",
+      "title": "Choose Option",
+      "parent": "node_10_1625541272015",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "query": "$caseID",
+            "action": "search"
+          },
+          "result_variable": "webhook_result_4"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1625541340010",
+      "previous_sibling": "response_2_1625575283321"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have blocked ABC Bank Platinum Credit Card. Is there anything else I can help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625123611271",
+      "conditions": "@cardblock:platinum",
+      "dialog_node": "response_10_1625124742685",
+      "previous_sibling": "response_9_1625124725968"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_9_1625541340010",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1625541376489",
+      "previous_sibling": "response_9_1625541374188"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The maximum credit limit for ABC Bank Platinum Credit Cards are "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1625199460837",
+      "disabled": true,
+      "conditions": "@credit_card:(ABC Bank Platinum)",
+      "dialog_node": "response_2_1625199599804"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1625541272015",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1625575283321",
+      "previous_sibling": "response_6_1625575282481"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1623031983494",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1623120948758",
+      "previous_sibling": "response_9_1623120946637"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have blocked ABC Bank Debit Card. Is there anything else I can help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625123611271",
+      "conditions": "@cardblock:debit",
+      "dialog_node": "response_4_1625219166659",
+      "previous_sibling": "response_10_1625124742685"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1625541272015",
+      "disabled": true,
+      "dialog_node": "response_6_1625575280931"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1625541272015",
+      "disabled": true,
+      "conditions": "$webhook_result_5",
+      "dialog_node": "response_6_1625575282481",
+      "previous_sibling": "response_6_1625575280931"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 3,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Your new credit limit has been updated. An email has been sent to you via mail of this update. \n\nIs there anything else I can help?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1623031983494",
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_9_1623120946637"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have blocked ABC Bank Silver Credit Card. \nIs there anything else I can help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625123611271",
+      "conditions": "@cardblock:silver",
+      "dialog_node": "response_9_1625124725968"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1625227093510",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1625123498770"
+      },
+      "conditions": "@cardCondition:lost",
+      "dialog_node": "response_9_1625227118259",
+      "previous_sibling": "node_9_1603173814264"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have dispatched a new Debit Card to your address in our records through a DHL Courier 232434343. \nHere are details of the Conversation:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "$webhook_result_4.results"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625541340010",
+      "conditions": "$webhook_result_4",
+      "dialog_node": "response_9_1625541374188"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1603173814264",
+      "variable": "$city",
+      "dialog_node": "slot_1_1603174048485",
+      "previous_sibling": "slot_9_1603173959440"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1623031983494",
+      "variable": "$credit_limit",
+      "dialog_node": "slot_1_1623033970318",
+      "previous_sibling": "slot_3_1623033163271"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1625040750452",
+      "variable": "$reply",
+      "dialog_node": "slot_1_1625040775801",
+      "previous_sibling": "node_5_1625040911135"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1625541340010",
+      "variable": "$caseID",
+      "dialog_node": "slot_2_1625541368804",
+      "previous_sibling": "response_1_1625541376489"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1623031983494",
+      "variable": "$credit_card",
+      "dialog_node": "slot_3_1623033163271",
+      "previous_sibling": "response_3_1623120948758"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1625219915497",
+      "variable": "$cardCondition",
+      "dialog_node": "slot_5_1625226281284",
+      "previous_sibling": "slot_8_1625221620728"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1625219915497",
+      "variable": "$product",
+      "dialog_node": "slot_8_1625221620728",
+      "previous_sibling": "node_9_1625227093510"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1625541272015",
+      "variable": "$srNumber",
+      "dialog_node": "slot_8_1625541321071",
+      "previous_sibling": "node_9_1625541340010"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1603173814264",
+      "variable": "$street_address",
+      "dialog_node": "slot_9_1603173959440"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello Mike Hudson, welcome to ABC Bank. I am ABC Assistant. How may I help you?"
+              },
+              {
+                "text": "Hello Mike Hudson! How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "You can ask about:",
+            "options": [
+              {
+                "label": "Account Balance",
+                "value": {
+                  "input": {
+                    "text": "I want to check my account balance"
+                  }
+                }
+              },
+              {
+                "label": "Increase Credit Limit",
+                "value": {
+                  "input": {
+                    "text": "I want to increase my credit card limit"
+                  }
+                }
+              },
+              {
+                "label": "Check Request Status",
+                "value": {
+                  "input": {
+                    "text": "I want to check status of complaint request"
+                  }
+                }
+              },
+              {
+                "label": "Report Fraud/Missing Card",
+                "value": {
+                  "input": {
+                    "text": "I want to report a fraud"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {
+        "name": "Mike Hudson",
+        "account_number": 11111111,
+        "account_balance": 3245.95,
+        "creditCardNumber": "4628-2447-4001-3231",
+        "credit_limit_silver": "4500.00"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "damaged"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 3,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "DTE _Lab1",
+  "language": "en",
+  "description": ""
+}
