@@ -196,7 +196,7 @@ Once this is all done, your cloudant should look like this:
 
 ## 6. Create Actions with Cloud Functions
 #### Configure the Cloud CLI
-
+To integrate Watson Assistant to the Cloudant databases, we use cloud function actions. Watson Assistant's webhook feature will call to this action that will be able to call the Cloudant API and 
 
 This is a more complex way of using Cloud Functions. To learn more about IBM Cloud Functions, follow this [link](https://cloud.ibm.com/functions/).
 
@@ -470,8 +470,8 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5OTg4Mjc1LC0xNDA0NjE0OTQ0LC0zMT
-UyNjMxMTAsLTEwMzIzODQ4OTYsMjAxMDg2NTkyMiwtMTE4MTg4
-NDc4MiwtNzQ3MDc1NjEwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX
-0=
+eyJoaXN0b3J5IjpbLTYwMDM1MDA2MywtMTQwNDYxNDk0NCwtMz
+E1MjYzMTEwLC0xMDMyMzg0ODk2LDIwMTA4NjU5MjIsLTExODE4
+ODQ3ODIsLTc0NzA3NTYxMCwyMDc3OTA5MjUsLTQ3MjkwOTQ4NV
+19
 -->
