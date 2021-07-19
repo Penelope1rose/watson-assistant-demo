@@ -104,9 +104,7 @@ Import the virtual insurance assistant skill from a JSON file in your cloned rep
 
 The newly created dialog skill should now be shown in your Assistant panel:
 
-Create a set of credentials by clicking  **Service credentials**  >  **New credential**  >  **Add**.
-
-Grab the value for  `apikey`  of the newly created IAM credential. Store this in the file  `etc/params.json`  under  `"assistant_apikey"`.
+![assistant diagram](/images/image1.png)
 
 
 
@@ -356,3 +354,6 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
         Sign up in  [Watson Studio](https://www.ibm.com/cloud/watson-studio), or use an existing account. Lite plan is free to use.
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTI5MTcyNTk1OF19
+-->
