@@ -146,6 +146,9 @@ This ingestion process will take some time. Once you have uploaded the screen lo
 
 ![create collection diagram](/images/image6.png)
 
+### Train documents with SDU
+For this step, you can follow this [link](https://www.ibm.com/cloud/garage/dte/tutorial/create-custom-ui-your-watson-assistant/)
+
 ## 2. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
 
@@ -387,6 +390,6 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5ODU0MDk0LC0xMTgxODg0NzgyLC03ND
-cwNzU2MTAsMjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
+eyJoaXN0b3J5IjpbMTgxNzU3NTExNCwtMTE4MTg4NDc4MiwtNz
+Q3MDc1NjEwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
 -->
