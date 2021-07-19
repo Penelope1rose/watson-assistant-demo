@@ -282,21 +282,15 @@ Install the dependencies listed in the [requirements.txt](https://pip.readthedoc
 You can optionally use a [virtual environment](https://packaging.python.org/installing/#creating-and-using-virtual-environments) to avoid having these dependencies clash with those of other Python projects or your operating system.
 
 ```
-
 pip install -r requirements.txt
-
 ```
 
-  
 
 Run the app.
 
 ```
-
 python hello.py
-
 ```
-
   
 
 View your app at: http://localhost:8000
@@ -347,25 +341,6 @@ cf api <API-endpoint>
 
 Replace the *API-endpoint* in the command with an API endpoint from the following list.
 
-  
-
-|URL |Region |
-
-|:-------------------------------|:---------------|
-
-| https://api.ng.bluemix.net | US South |
-
-| https://api.eu-de.bluemix.net | Germany |
-
-| https://api.eu-gb.bluemix.net | United Kingdom |
-
-| https://api.au-syd.bluemix.net | Sydney |
-
-  
-
-Login to your IBM Cloud account
-
-  
 
 ```
 
@@ -515,9 +490,9 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzgyMzMwMSwtMzMxNDE5NzkxLC0xNT
-cwNjQxMTA5LC0xNzQxMDgzOTcyLDE1MDM2MzI0NzYsMTY4OTE4
-MzI5NiwtMTQwNDYxNDk0NCwtMzE1MjYzMTEwLC0xMDMyMzg0OD
-k2LDIwMTA4NjU5MjIsLTExODE4ODQ3ODIsLTc0NzA3NTYxMCwy
-MDc3OTA5MjUsLTQ3MjkwOTQ4NV19
+eyJoaXN0b3J5IjpbLTEzOTA4ODc4NjEsLTMzMTQxOTc5MSwtMT
+U3MDY0MTEwOSwtMTc0MTA4Mzk3MiwxNTAzNjMyNDc2LDE2ODkx
+ODMyOTYsLTE0MDQ2MTQ5NDQsLTMxNTI2MzExMCwtMTAzMjM4ND
+g5NiwyMDEwODY1OTIyLC0xMTgxODg0NzgyLC03NDcwNzU2MTAs
+MjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
 -->
