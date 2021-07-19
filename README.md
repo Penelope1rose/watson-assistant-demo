@@ -200,18 +200,18 @@ To integrate Watson Assistant to the Cloudant databases, we use cloud function a
 This is a more complex way of using Cloud Functions. To learn more about IBM Cloud Functions, follow this [link](https://cloud.ibm.com/functions/).
 
 #### Configure the Cloud CLI
-Open your command prompt and navigate to the clone repo directory into the `Watson-Assistant` folder.
+- Open your command prompt and navigate to the clone repo directory into the `Watson-Assistant` folder.
 ```
 cd /<path-to-clone-repo>/Watson-Assistant/
 ```
 
-Login in to your account (follow the prompts)
+- Login in to your account (follow the prompts)
 
 ```
 ibmcloud login -sso
 ```
 
-Target the resource group. 
+- Target a resource group. 
 
 ```
 ibmcloud target -g default
@@ -222,7 +222,7 @@ ibmcloud target -g default
 > 
 > Then try the above step again
 
-Target the organization and space that contains your services (follow the prompts)
+- Target the organization and space that contains your services (follow the prompts)
 
 ```
 ibmcloud target --cf
@@ -232,7 +232,7 @@ ibmcloud target --cf
 
 Make sure you are in the  `Watson-Assistant`  directory.
 
-Run the following commands to create and target a namespace.
+- Run the following commands to create and target a namespace.
 
 ```
 ibmcloud fn namespace create <yourname>-fn
@@ -502,9 +502,9 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzA2NDExMDksLTE3NDEwODM5NzIsMT
-UwMzYzMjQ3NiwxNjg5MTgzMjk2LC0xNDA0NjE0OTQ0LC0zMTUy
-NjMxMTAsLTEwMzIzODQ4OTYsMjAxMDg2NTkyMiwtMTE4MTg4ND
-c4MiwtNzQ3MDc1NjEwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
-
+eyJoaXN0b3J5IjpbLTE4NDk4MTk1MDYsLTE1NzA2NDExMDksLT
+E3NDEwODM5NzIsMTUwMzYzMjQ3NiwxNjg5MTgzMjk2LC0xNDA0
+NjE0OTQ0LC0zMTUyNjMxMTAsLTEwMzIzODQ4OTYsMjAxMDg2NT
+kyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1NjEwLDIwNzc5MDkyNSwt
+NDcyOTA5NDg1XX0=
 -->
