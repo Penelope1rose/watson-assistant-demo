@@ -264,7 +264,9 @@ ibmcloud fn action list
 
 ### Add URL to Watson Assistant for webhook
 > **What is a webhook?**
-> Webhook **sends a POST request callout to an external application that performs a programmatic function**. When used in a dialog skill, a webhook is triggered when the assistant processes a node that has a webhook enabled.
+> Webhook **sends a POST request callout to an external application that performs a programmatic function**. When used in a dialog skill, a webhook is triggered when the assistant processes a node that has a webhook enabled. 
+>
+We are using Cloud Fun
 
 ## 7. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
@@ -507,9 +509,9 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU0MDIxODAsLTMzMTQxOTc5MSwtMT
-U3MDY0MTEwOSwtMTc0MTA4Mzk3MiwxNTAzNjMyNDc2LDE2ODkx
-ODMyOTYsLTE0MDQ2MTQ5NDQsLTMxNTI2MzExMCwtMTAzMjM4ND
-g5NiwyMDEwODY1OTIyLC0xMTgxODg0NzgyLC03NDcwNzU2MTAs
-MjA3NzkwOTI1LC00NzI5MDk0ODVdfQ==
+eyJoaXN0b3J5IjpbNjQxMTk0NDA0LC0zMzE0MTk3OTEsLTE1Nz
+A2NDExMDksLTE3NDEwODM5NzIsMTUwMzYzMjQ3NiwxNjg5MTgz
+Mjk2LC0xNDA0NjE0OTQ0LC0zMTUyNjMxMTAsLTEwMzIzODQ4OT
+YsMjAxMDg2NTkyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1NjEwLDIw
+Nzc5MDkyNSwtNDcyOTA5NDg1XX0=
 -->
