@@ -3,9 +3,9 @@ from flask import render_template
 import os
 
 # app = Flask(__name__)
-app = Flask(__name__, static_url_path='')
+app = Flask(__name__)
 
-# app = Flask(static_folder='C:\Users\AyuwandiraRadin\Documents\projects\my_ind-webinar\demo\DTE_Lab1\DTE_Lab1\static')
+# app = Flask(static_folder='/static')
 
 # On IBM Cloud Cloud Foundry, get the port number from the environment variable PORT
 # When running this app on the local machine, default the port to 8000
