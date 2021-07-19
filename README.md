@@ -241,9 +241,12 @@ ibmcloud fn namespace target <yourname>-fn
 
 Run the commands below to create an action in Cloud Functions.
 ```
-ibmcloud fn action create wafnaction cloud-fn.zip --kind python:3 --main 
-ibmcloud fn action list
+ibmcloud fn action create wafnaction  --kind python:3 --main main cloud-fn.zip
 ```
+
+To see the created action, type the command below:
+
+
 
 ## 7. Run the app locally
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
@@ -486,7 +489,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA1MjA5ODcsMTUwMzYzMjQ3NiwxNj
+eyJoaXN0b3J5IjpbLTEzMDE3NzY1NDcsMTUwMzYzMjQ3NiwxNj
 g5MTgzMjk2LC0xNDA0NjE0OTQ0LC0zMTUyNjMxMTAsLTEwMzIz
 ODQ4OTYsMjAxMDg2NTkyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1Nj
 EwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
