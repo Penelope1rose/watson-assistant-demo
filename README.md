@@ -112,7 +112,7 @@ The newly created dialog skill should now be shown in your Assistant panel:
 
 ![assistant diagram](/images/image4.png)
 
-## #3. Set up Watson Discovery
+## 3. Set up Watson Discovery
 
 #### Add a search skill
 
@@ -383,6 +383,6 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDk5MzgzNywtNzQ3MDc1NjEwLDIwNz
-c5MDkyNSwtNDcyOTA5NDg1XX0=
+eyJoaXN0b3J5IjpbLTExODE4ODQ3ODIsLTc0NzA3NTYxMCwyMD
+c3OTA5MjUsLTQ3MjkwOTQ4NV19
 -->
