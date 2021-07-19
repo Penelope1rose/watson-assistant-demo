@@ -263,7 +263,7 @@ ibmcloud fn action list
 ![cloud functions action diagram](/images/image12.png)
 
 ### Add URL to Watson Assistant for webhook
-> **What is a webhook?**
+> #### What is a webhook?
 > Webhook **sends a POST request callout to an external application that performs a programmatic function**. When used in a dialog skill, a webhook is triggered when the assistant processes a node that has a webhook enabled. 
 >
 We are using webhooks with Cloud Functions for this demo. 
@@ -297,9 +297,9 @@ View your app at: http://localhost:8000
 ![cloud functions action diagram](/images/image14.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MzcxNjgxMSwxMDI4MTQ1Njg3LC0zMz
-E0MTk3OTEsLTE1NzA2NDExMDksLTE3NDEwODM5NzIsMTUwMzYz
-MjQ3NiwxNjg5MTgzMjk2LC0xNDA0NjE0OTQ0LC0zMTUyNjMxMT
-AsLTEwMzIzODQ4OTYsMjAxMDg2NTkyMiwtMTE4MTg4NDc4Miwt
-NzQ3MDc1NjEwLDIwNzc5MDkyNSwtNDcyOTA5NDg1XX0=
+eyJoaXN0b3J5IjpbLTE3MjM1ODMzNTEsMTAyODE0NTY4NywtMz
+MxNDE5NzkxLC0xNTcwNjQxMTA5LC0xNzQxMDgzOTcyLDE1MDM2
+MzI0NzYsMTY4OTE4MzI5NiwtMTQwNDYxNDk0NCwtMzE1MjYzMT
+EwLC0xMDMyMzg0ODk2LDIwMTA4NjU5MjIsLTExODE4ODQ3ODIs
+LTc0NzA3NTYxMCwyMDc3OTA5MjUsLTQ3MjkwOTQ4NV19
 -->
