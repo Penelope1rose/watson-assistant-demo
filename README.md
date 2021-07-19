@@ -159,11 +159,7 @@ We need to create 2 databases, the **CRM System** and the **Core Banking System*
 > We will be updating information such as credit card limit increase to the Core Banking System database while we will be pulling data from the CRM System of service request details. 
 
 - Go to your IBM Cloud Console resource list, find your Cloudant instance and Launch the dashboard.
-
-	![dashboard diagram](/images/image1.png)
-	
-- Find your Watson Assistant service and click on it.
-- Click on  `Launch Watson Assistant`.
+- Click on `Create database**
 
 
 
@@ -408,7 +404,7 @@ You can either run the notebooks locally or in  [IBM Watson Studio](https://data
     2.  Create a new project and add a Cloud Object Storage (COS) account.  
         For more information regarding COS plans, see  [Pricing]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzIzODQ4OTYsMjAxMDg2NTkyMiwtMT
-E4MTg4NDc4MiwtNzQ3MDc1NjEwLDIwNzc5MDkyNSwtNDcyOTA5
-NDg1XX0=
+eyJoaXN0b3J5IjpbLTE1NDc5MjM3ODMsLTEwMzIzODQ4OTYsMj
+AxMDg2NTkyMiwtMTE4MTg4NDc4MiwtNzQ3MDc1NjEwLDIwNzc5
+MDkyNSwtNDcyOTA5NDg1XX0=
 -->
